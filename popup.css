@@ -1,3 +1,35 @@
-html, body {
-    width: 100px;
-  }
+.CCPAPopup {
+  width: 250px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #bd0e0e;
+  color: white;
+  position: fixed;
+  z-index: 1;
+  top: 30px;
+  right: 30px;
+}
+
+.CCPAMoreInfo{
+  color: white;
+  font-size: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.CCPAClose {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.CCPAButton {
+background-color: black;
+border: 2px solid white;
+color: white;
+margin: 5px 5% 3px 5%;
+text-align: center;
+cursor: pointer;
+}

@@ -3,7 +3,8 @@
 var pageElements = document.getElementsByTagName('*');
 var linkDetected = false;
 for(var i = 0; i < pageElements.length; i++) {
-    if(pageElements[i].innerHTML.toLowerCase().search('do not sell') != -1) {
+    if(pageElements[i].innerHTML.toLowerCase().search('do not sell') != -1
+        || pageElements[i].innerHTML.toLowerCase().search('don\'t sell') != -1) {
         linkDetected = true;
     }
 }
