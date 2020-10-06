@@ -11,8 +11,6 @@
       "48": "icons/test.png"
     },
 
-    "permissions": ["activeTab"],
-
     "background": {
       "scripts": ["background.js"]
     },

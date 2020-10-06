@@ -4,7 +4,7 @@
   background-color: #bd0e0e;
   color: white;
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   top: 30px;
   right: 30px;
 }
