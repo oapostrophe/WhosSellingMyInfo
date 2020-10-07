@@ -4,14 +4,22 @@
   background-color: #bd0e0e;
   color: white;
   position: fixed;
-  z-index: 10;
-  top: 30px;
-  right: 30px;
+  z-index: 20;
+  top: 15px;
+  right: 15px;
 }
 
-.CCPAMoreInfo{
+.CCPAPopup div {
+  all: unset;
+}
+
+.CCPAMoreInfo {
   color: white;
   font-size: 10px;
+}
+
+.CCPAMoreInfo a {
+  all: unset;
 }
 
 .hidden {
@@ -25,6 +33,10 @@
   cursor: pointer;
 }
 
+.CCPAClose span {
+  all: unset;
+}
+
 .CCPAButton {
 background-color: black;
 border: 2px solid white;
@@ -32,4 +44,8 @@ color: white;
 margin: 5px 5% 3px 5%;
 text-align: center;
 cursor: pointer;
+}
+
+.CCPAButton button{
+  all : unset;
 }
