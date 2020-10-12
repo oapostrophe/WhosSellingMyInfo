@@ -1,9 +1,11 @@
+// Try all: unset, or all : initial for stylesheet
+
 
     // Add extension stylesheet
     var link = document.createElement('link');
     link.setAttribute('rel', 'stylesheet');
     link.setAttribute('type', 'text/css');
-    link.setAttribute('href', 'https://gitcdn.link/repo/swow2015/Who-sSellingMyInfo-/master/popup.css');
+    link.setAttribute('href', 'https://www.gitcdn.xyz/repo/swow2015/Who-sSellingMyInfo-/master/popup.css');
     link.setAttribute('href', 'popup.css');
     document.getElementsByTagName('HEAD')[0].appendChild(link);
 

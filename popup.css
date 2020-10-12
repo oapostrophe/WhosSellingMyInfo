@@ -1,4 +1,5 @@
 .CCPAPopup {
+  all: revert;
   width: 250px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #bd0e0e;
@@ -14,12 +15,9 @@
 }
 
 .CCPAMoreInfo {
+  all: revert;
   color: white;
   font-size: 10px;
-}
-
-.CCPAMoreInfo a {
-  all: unset;
 }
 
 .hidden {
@@ -27,25 +25,19 @@
 }
 
 .CCPAClose {
+  all: revert;
   position: absolute;
   top: 5px;
   right: 15px;
   cursor: pointer;
 }
 
-.CCPAClose span {
-  all: unset;
-}
-
 .CCPAButton {
+all: revert;
 background-color: black;
 border: 2px solid white;
 color: white;
 margin: 5px 5% 3px 5%;
 text-align: center;
 cursor: pointer;
-}
-
-.CCPAButton button{
-  all : unset;
 }
