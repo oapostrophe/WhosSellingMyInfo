@@ -2,6 +2,8 @@
 Firefox Extension to detect pages with a California Consumer Privacy Act-mandated "Do Not Sell My Personal Information" link  and notify users with a banner through which they can access the opt-out.
 
 Background:
+What do Walmart, Ebay, Yahoo, and CNN have in common?  You may not have noticed, but in the past year, a new link has appeared on their website.
+
 The California Consumer Privacy Act, as of July 2020, mandates that websites which sell users' information post a link on their page allowing opt-out from this practice.  The act requires this link to be "clear and conspicuous" as well as to be specifically titled "Do Not Sell My Personal Information."  However, a study of the top 500 websites revealed that most of these links are anything but.  Companies use every trick in the book to hide the opt-out link in places that it won't be seen, so that they can continue to sell users' information without them knowing it's even happening, let alone that there is a way to opt out.
 
 The reason this law is so impactful is that it expands the definition of "personal information" beyond the scope of what's been considered as such in the past.  While previous privacy laws like the GDPR focused on information identifying users by name, in the age of big data, companies don't need your name in order to identify who you are.  As data brokers hold profiles containing thousands of pieces of information on nearly every US consumer, it takes as little as an identifying number stored in a cookie on your computer, your IP address, or even your browsing history for them to match your activity to a profile with your name and other personal information.
