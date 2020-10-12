@@ -17,7 +17,7 @@
 
     "browser_action": {
       "default_icon": "icons/icon_inactive.png",
-      "default_title": "Who's Selling My Info?",
+      "default_title": "Who's Selling My Info?"
     },
 
     "content_scripts": [
