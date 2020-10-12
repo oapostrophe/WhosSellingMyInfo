@@ -30,7 +30,7 @@ function displayPopup(){
     // Create button
     var button = document.createElement('button');
     button.setAttribute('id', 'CCPAButton');
-    button.setAttribute('onclick', 'linkReference.click();');
+    button.setAttribute('onclick', 'ccpaButtonClick();');
     button.innerHTML = "Don't Sell My Personal Information";
     popup.appendChild(button);
 
@@ -57,6 +57,9 @@ link.setAttribute('href', 'https://gitcdn.xyz/repo/swow2015/Who-sSellingMyInfo-/
 document.getElementsByTagName('head')[0].appendChild(link);
 
 // Add click-triggered functions to page
+var clickScripts = document.createElement('script');
+clickScripts.setAttribute('src', 'https://www.gitcdn.xyz/repo/swow2015/Who-sSellingMyInfo-/master/click_scripts.js');
+document.getElementsByTagName('body')[0].appendChild(clickScripts);
 
 
 // Search page elements for CCPA opt-out link
