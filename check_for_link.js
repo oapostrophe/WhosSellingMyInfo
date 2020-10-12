@@ -36,7 +36,6 @@ function displayPopup(){
 
     // Add popup to document
     document.getElementsByTagName('BODY')[0].appendChild(popup);
-    console.log('displayed popup');
 }
 
 /**
@@ -84,5 +83,3 @@ if(linkDetected){
 else{
     browser.runtime.sendMessage({linkDetected: "no"});
 }
-
-console.log('finished');

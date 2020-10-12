@@ -2,14 +2,11 @@
  * Contains functions triggered by clicks, to be inserted into page.
  */
 
- /**
-  * Close notification when 'X' button is clicked.
-  */
-
-console.log('script inserted');
+/**
+ * Close notification when 'X' button is clicked.
+*/
 
 function ccpaClose(){
-    console.log('close ran');
     var popup = document.getElementById('CCPAPopup');
     var close = document.getElementById('CCPAClose');
     var moreInfo = document.getElementById('CCPAMoreInfo');
@@ -24,7 +21,6 @@ function ccpaClose(){
  * Find and click CCPA opt-out link
  */
 function ccpaButtonClick(){
-    console.log('buttonclick ran');
     var pageElements = document.getElementsByTagName('*');
     for(var i = 0; i < pageElements.length; i++) {
 
