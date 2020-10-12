@@ -1,3 +1,7 @@
+/**
+ * Background script: updates extension icon if opt-out link is detected.
+ */
+
 // Listen for search results
 browser.runtime.onMessage.addListener(updateIcon);
 
