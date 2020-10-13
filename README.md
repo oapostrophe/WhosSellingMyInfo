@@ -2,7 +2,7 @@
 Firefox Extension to detect pages with a California Consumer Privacy Act-mandated "Do Not Sell My Personal Information" link  and notify users with a banner through which they can access the opt-out.
 
 Background:
-What do Hulu, Walmart, Ebay, and CNN have in common?  You may not have noticed, but there's a new link on their website, along with 35.8% of the top 500 US websites.
+What do Hulu, Walmart, and CNN have in common?  You may not have noticed, but there's a new link on their website, along with 35.8% of the top 500 US websites.
 
 As of July 2020, the California Consumer Privacy Act mandates that websites which sell users' information post a link on their page allowing opt-out from this practice.  The act requires this link to be "clear and conspicuous" as well as to be specifically titled "Do Not Sell My Personal Information."  However, a study revealed that most of these links are anything but.  Companies use every trick in the book to hide the opt-out link in places that it won't be seen, so that they can continue to sell users' information without them knowing it's even happening, let alone that there is a way to opt out.
 
