@@ -2,7 +2,7 @@
 
 Firefox Extension to detect pages with a California Consumer Privacy Act-mandated "Do Not Sell My Personal Information" link and notify users with a banner through which they can access the opt-out.
 
-# Background
+## Background
 
 What do Hulu, Walmart, and CNN have in common?  You may not have noticed, but there's a new link on their website, along with 35.8% of the top 500 US websites.
 
@@ -16,20 +16,20 @@ The CCPA attempts to address these trends by expanding the definition of what in
 
 This extension tries to correct that course and let you see the web the way the CCPA intended: with a clear and conspicuous notification when your information is being sold, along with the ability to opt out.
 
-# The Extension
+## The Extension
 
 The extension will search any web-pages you visit for the presence of the words "Do Not Sell" or "Don't Sell", which represents almost every CCPA opt-out link and 
 are very rarely used in other contexts on webpages.  If such words are found, it means that the website is selling your personal information!  The extension will display a red notification in the lower-left corner in these cases, which when clicked will directly take you to the site's opt-out page as if you clicked the link itself.  You can also dismiss the notification by clicking the "x" button.
 
-# Installation Instructions
+## Installation Instructions
 
 Coming Soon!
 
-# Limitations
+## Limitations
 
 This extension only detects websites that display a CCPA opt-out in the first place.  Since many companies only display such a link to users with a California IP address, the extension will not be as effective for non-California residents.  Furthermore, only 35.8% of the top 500 websites implemented a CCPA opt-out link after the law took effect.  The number that actually sell user information is likely much higher, meaning that not all websites which sell your information will be detected by this extension.  A few websites, instead of an opt-out link, display a CCPA notice in a banner, which may not be detected by this extension.  The extension may also generate false positives if a website has the words "Do Not Sell" in some other context, like when viewing this ReadMe.  The extension won't know if you've exercised your opt-out rights, and will keep saying that the page is selling your information based on the fact that it contains an opt-out link.  Finally, while this extension can help let you know when your information is being sold, many websites make it difficult or impossible to actually complete their opt-out process.  Intentionally difficult designs are common, and many opt-out requests don't actually stop your information from being sold.  As such, it's important to take further steps to protect your privacy to the extent possible.
 
-# Guide to Source Files
+## Guide to Source Files
 
 Coming Soon!
 
