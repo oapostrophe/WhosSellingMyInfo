@@ -3,6 +3,9 @@
  * such a link, then displays a notification if found.
  */
 
+// Add compatibility for Chromuim-based browsers
+var browser = browser || chrome;
+
 /**
  * Function to display notification
  */

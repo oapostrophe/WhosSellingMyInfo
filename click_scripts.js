@@ -2,6 +2,9 @@
  * Contains functions triggered by clicks, to be inserted into page.
  */
 
+// Add compatibility for Chromuim-based browsers
+var browser = browser || chrome;
+
 /**
  * Close notification when 'X' button is clicked.
 */
