@@ -1,5 +1,5 @@
 # Who's Selling My Info?
-Firefox Extension to detect pages with a California Consumer Privacy Act-mandated "Do Not Sell My Personal Information" link  and notify users with a banner through which they can access the opt-out.
+Firefox and Chromium Extension to detect pages with a California Consumer Privacy Act-mandated "Do Not Sell My Personal Information" link  and notify users with a banner through which they can access the opt-out.
 
 Background:
 What do Hulu, Walmart, and CNN have in common?  You may not have noticed, but there's a new link on their website, along with 35.8% of the top 500 US websites.
