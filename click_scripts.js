@@ -9,7 +9,8 @@ var browser = browser || chrome;
  * Close notification when 'X' button is clicked.
 */
 
-function ccpaClose(){
+document.getElementById('CCPAClose').onclick = function () {
+    // console.log("closed")
     var popup = document.getElementById('CCPAPopup');
     var close = document.getElementById('CCPAClose');
     var moreInfo = document.getElementById('CCPAMoreInfo');
@@ -23,12 +24,14 @@ function ccpaClose(){
 /**
  * Find and click CCPA opt-out link
  */
-function ccpaButtonClick(){
+document.getElementById('CCPAButton').onclick = function () {
+    // console.log("stopped sale of personal info");
+
     var pageElements = document.getElementsByTagName('*');
-    for(var i = 0; i < pageElements.length; i++) {
+    for (var i = 0; i < pageElements.length; i++) {
 
         // If opt-out link is found, click it.
-        if(pageElements[i].innerHTML.toLowerCase().search('do not sell') != -1
+        if (pageElements[i].innerHTML.toLowerCase().search('do not sell') != -1
             || pageElements[i].innerHTML.toLowerCase().search('don\'t sell') != -1) {
             pageElements[i].click();
         }
