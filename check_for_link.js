@@ -23,7 +23,8 @@ function displayPopup(){
     // Create more info link
     var moreInfo = document.createElement('a');
     moreInfo.setAttribute('id', 'CCPAMoreInfo');
-    moreInfo.setAttribute('href', 'http://www.google.com/');
+    moreInfo.setAttribute('href', browser.runtime.getManifest().homepage_url);
+    moreInfo.setAttribute('target', '_blank');
     moreInfo.innerHTML = 'More Info';
     popup.appendChild(moreInfo);
 
