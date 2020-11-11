@@ -28,5 +28,8 @@
         "click_scripts.js"
       ]
     }
+  ],
+  "web_accessible_resources":[
+    "popup.css"
   ]
 }
