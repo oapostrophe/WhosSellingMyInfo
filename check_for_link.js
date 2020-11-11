@@ -47,13 +47,6 @@ function displayPopup() {
  * results back to background script.
  */
 
-// Add notification stylesheet
-var link = document.createElement('link');
-link.setAttribute('rel', 'stylesheet');
-link.setAttribute('type', 'text/css');
-link.setAttribute('href', browser.runtime.getURL('./popup.css'));
-document.getElementsByTagName('head')[0].appendChild(link);
-
 // Search page elements for CCPA opt-out link
 var pageElements = document.getElementsByTagName('*');
 var linkDetected = false;

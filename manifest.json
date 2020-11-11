@@ -26,10 +26,10 @@
       "js": [
         "check_for_link.js",
         "click_scripts.js"
+      ],
+      "css":[
+        "popup.css"
       ]
     }
-  ],
-  "web_accessible_resources":[
-    "popup.css"
   ]
 }
