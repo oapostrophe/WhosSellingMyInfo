@@ -52,7 +52,7 @@ function displayPopup(){
 var link = document.createElement('link');
 link.setAttribute('rel', 'stylesheet');
 link.setAttribute('type', 'text/css');
-link.setAttribute('href', 'https://gitcdn.xyz/repo/swow2015/Who-sSellingMyInfo-/master/popup.css');
+link.setAttribute('href', browser.runtime.getURL('./popup.css'));
 document.getElementsByTagName('head')[0].appendChild(link);
 
 // Add click-triggered functions to page
