@@ -43,6 +43,41 @@ function displayPopup() {
 }
 
 /**
+ * Changes the number of websites detected and the total number of
+ * websites visited by one
+ */
+function linkIsDetected() {
+    browser.storage.local.get(["detected"], function (result) {
+        if (result.detected == null) {
+            browser.storage.local.set({"detected": 1}, function () { });
+        } else {
+            browser.storage.local.set({"detected": result.detected + 1}, function () { });
+        }
+    });
+
+    browser.storage.local.get(["total"], function (result) {
+        if (result.total == null) {
+            browser.storage.local.set({"total": 1}, function () { });
+        } else {
+            browser.storage.local.set({"total": result.total + 1}, function () { });
+        }
+    });
+}
+
+/**
+ * Changes the total number of websites visited by one
+ */
+function linkIsNotDetected() {
+    browser.storage.local.get(["total"], function (result) {
+        if (result.total == null) {
+            browser.storage.local.set({"total": 1}, function () { });
+        } else {
+            browser.storage.local.set({"total": result.total + 1}, function () { });
+        }
+    });
+}
+
+/**
  * Main script code: searches page for link, displays notification, sends
  * results back to background script.
  */
@@ -64,8 +99,10 @@ for (var i = 0; i < pageElements.length; i++) {
 // Send search result to background script
 if (linkDetected) {
     displayPopup();
+    linkIsDetected();
     browser.runtime.sendMessage({linkDetected: "yes"});
 }
 else {
+    linkIsNotDetected();
     browser.runtime.sendMessage({linkDetected: "no"});
 }
