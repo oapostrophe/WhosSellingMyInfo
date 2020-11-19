@@ -32,3 +32,10 @@ This extension only detects websites that display a CCPA opt-out in the first pl
 ## Guide to Source Files
 
 Coming Soon!
+
+
+## Permissions
+
+This extension currently requires one permission:
+
+- storage: used to track the percentage of sites that sell your data

@@ -1,5 +1,4 @@
 {
-
   "manifest_version": 2,
   "name": "Who's Selling My Info?",
   "author": "Sean O'Connor",
@@ -16,7 +15,8 @@
   },
   "browser_action": {
     "default_icon": "icons/icon_inactive.png",
-    "default_title": "Who's Selling My Info?"
+    "default_title": "Who's Selling My Info?",
+    "default_popup": "popup/popup.html"
   },
   "content_scripts": [
     {
@@ -27,9 +27,12 @@
         "check_for_link.js",
         "click_scripts.js"
       ],
-      "css":[
+      "css": [
         "popup.css"
       ]
     }
+  ],
+  "permissions": [
+    "storage"
   ]
 }
