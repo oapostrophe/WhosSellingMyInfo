@@ -13,8 +13,13 @@ function displayPopup() {
 
     // Create popup
     var popup = document.createElement('div');
-    popup.innerHTML = '<b>This website sells your personal information.  Opt out below. </b>';
     popup.setAttribute('id', 'CCPAPopup');
+
+    // Create popup body
+    var popupBody = document.createElement('div');
+    popupBody.setAttribute('id', 'CCPABody');
+    popupBody.innerHTML = '<b>This website sells your personal information.  Opt out below.</b></br>';
+    popup.appendChild(popupBody);
 
     // Create 'X' button
     var close = document.createElement('span');
@@ -28,7 +33,7 @@ function displayPopup() {
     moreInfo.setAttribute('href', browser.runtime.getManifest().homepage_url);
     moreInfo.setAttribute('target', '_blank');
     moreInfo.innerHTML = 'More Info';
-    popup.appendChild(moreInfo);
+    popupBody.appendChild(moreInfo);
 
     // Create button
     var button = document.createElement('button');
@@ -38,14 +43,7 @@ function displayPopup() {
 
     // Add popup to document
     document.getElementsByTagName('BODY')[0].appendChild(popup);
-
-
 }
-
-/**
- * Main script code: searches page for link, displays notification, sends
- * results back to background script.
- */
 
 // Search page elements for CCPA opt-out link
 var pageElements = document.getElementsByTagName('*');

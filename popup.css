@@ -2,12 +2,19 @@
   all: revert;
   width: 250px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
   background-color: #bd0e0e;
   color: white;
   position: fixed;
   z-index: 99;
   bottom: 15px;
   left: 15px;
+}
+
+#CCPABody {
+  margin-left: 6px;
+  margin-right: 13px;
+  margin-top: 3px;
 }
 
 #CCPAMoreInfo {
@@ -19,8 +26,8 @@
 #CCPAClose {
   all: revert;
   position: absolute;
-  top: 5px;
-  right: 15px;
+  top: 0px;
+  right: 10px;
   cursor: pointer;
 }
 

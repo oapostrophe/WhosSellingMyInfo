@@ -10,10 +10,12 @@ try {
     document.getElementById('CCPAClose').onclick = function () {
         // console.log("closed")
         var popup = document.getElementById('CCPAPopup');
+        var popupBody = document.getElementById('CCPABody');
         var close = document.getElementById('CCPAClose');
         var moreInfo = document.getElementById('CCPAMoreInfo');
         var button = document.getElementById('CCPAButton');
         popup.style.display = 'none';
+        popupBody.style.display='none';
         close.style.display = 'none';
         moreInfo.style.display = 'none';
         button.style.display = 'none';

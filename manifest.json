@@ -4,7 +4,7 @@
   "author": "Sean O'Connor",
   "version": "1.0",
   "description": "Detects whether websites have a 'Do Not Sell My Personal Information' link mandated by CCPA, and makes them easily accessible.",
-  "homepage_url": "https://github.com/swow2015/Who-sSellingMyInfo-",
+  "homepage_url": "https://github.com/oapostrophe/WhosSellingMyInfo",
   "icons": {
     "48": "icons/icon_active.png"
   },
