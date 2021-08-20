@@ -1,11 +1,11 @@
 # Who's Selling My Info?
 
-Browser extension to detect pages with a California Consumer Privacy Act data sale opt out and notify users. 
+A browser extension to detect pages with a California Consumer Privacy Act data sale opt out and notify users. 
 
-Learn more:  
+**Learn more:**  
 [Blog Post](https://oapostrophe.github.io/whos-selling-my-info/) about the project
 
-Get the extension:  
+**Get the extension:**
 [Mozilla Extension Page](https://addons.mozilla.org/en-US/developers/addon/who-s-selling-my-info/edit)
 
 ## Background
