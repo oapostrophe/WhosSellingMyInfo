@@ -1,6 +1,12 @@
 # Who's Selling My Info?
 
-Browser extension to detect pages with a California Consumer Privacy Act-mandated "Do Not Sell My Personal Information" link and notify users with a banner through which they can access the opt-out.
+Browser extension to detect pages with a California Consumer Privacy Act-mandated "Do Not Sell My Personal Information" link and notify users with a banner through which they can access the opt-out. 
+
+Learn more:
+[Blog Post](https://oapostrophe.github.io/whos-selling-my-info/) about the project
+
+Get the extension:
+[Mozilla Extension Page](https://addons.mozilla.org/en-US/developers/addon/who-s-selling-my-info/edit)
 
 ## Background
 
